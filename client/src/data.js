@@ -1,7 +1,7 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://ae01.alicdn.com/kf/H713ea91bca824830bf90cb92b2860634A/Elegant-square-neck-reformation-chiffon-dress-high-quality-A-line-short-sleeve-zip-puff-sleeve-summer.jpg_Q90.jpg_.webp",
+    img: "https://www.honestbrandreviews.com/wp-content/uploads/2021/03/Reformation-Nikita-Dress-768x1024.jpg",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
@@ -27,16 +27,19 @@ export const categories = [
     id: 1,
     img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "SHIRT STYLE!",
+    cat: "women",
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     title: "LOUNGEWEAR LOVE",
+    cat: "coat",
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     title: "LIGHT JACKETS",
+    cat: "jeans",
   },
 ];
 
@@ -47,7 +50,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: "https://i.pinimg.com/originals/f8/98/06/f89806bed3a05c621fe4a1a0c56d0708.jpg",
+    img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
   },
   {
     id: 3,
@@ -67,7 +70,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: "https://i.pinimg.com/236x/0a/75/74/0a75744750efdb3d3038995702ffc06c--print-chiffon-chiffon-skirt.jpg",
+    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
   },
   {
     id: 8,

@@ -12,16 +12,18 @@ import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import Cart from "./pages/cart/Cart";
 function App() {
+  const user = false;
   return (
     <>
       <Announcment />
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/singleproduct" element={<SingleProduct />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/products/:category" element={<ProductsPage />} />
+
+        <Route path="/product/:id" element={<SingleProduct />} />
+        <Route path="/register" element={user ? <Home /> : <Register />} />
+        <Route path="/login" element={user ? <Home /> : <Login />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
       <ProductList />
