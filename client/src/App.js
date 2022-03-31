@@ -10,6 +10,8 @@ import SingleProduct from "./pages/product/SingleProduct";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import Cart from "./pages/cart/Cart";
+import Success from "./pages/Success";
+
 function App() {
   const user = false;
   return (
@@ -23,6 +25,7 @@ function App() {
         <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/login" element={user ? <Home /> : <Login />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
 
       <Newsletter />
