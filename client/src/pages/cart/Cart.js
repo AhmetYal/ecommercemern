@@ -2,6 +2,7 @@ import React from "react";
 import "./cart.css";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -9,7 +10,9 @@ const Cart = () => {
       <div className="cartwrapper">
         <h1 className="carttitle">YOUR BAG</h1>
         <div className="top">
-          <button className="topbutton">CONTINUE SHOPPING</button>
+          <Link to="/">
+            <button className="topbutton">CONTINUE SHOPPING</button>
+          </Link>
           <div className="toptexts">
             <span className="toptext">Shopping Bag(2)</span>
             <span className="toptext">Your Wishlist (0)</span>

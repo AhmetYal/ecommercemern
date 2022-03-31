@@ -50,7 +50,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    img: "https://media.cntraveler.com/photos/60088d408ebb4b589a89b54e/master/w_2100,h_1500,c_limit/LightweightJackets-2021-Uniqlo.jpg",
   },
   {
     id: 3,
