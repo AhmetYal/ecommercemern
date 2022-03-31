@@ -11,9 +11,10 @@ import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import Cart from "./pages/cart/Cart";
 import Success from "./pages/Success";
+import { useSelector } from "react-redux";
 
 function App() {
-  const user = false;
+  const user = useSelector((state) => state.user.currentUser);
   return (
     <>
       <Announcment />
