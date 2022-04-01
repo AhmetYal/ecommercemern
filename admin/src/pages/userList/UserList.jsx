@@ -11,7 +11,7 @@ export default function UserList() {
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
   };
-  
+
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
     {
@@ -66,6 +66,7 @@ export default function UserList() {
         columns={columns}
         pageSize={8}
         checkboxSelection
+        rowsPerPageOptions={[8, 16, 24]}
       />
     </div>
   );
